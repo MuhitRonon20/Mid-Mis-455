@@ -1,0 +1,231 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1e1e1e;
+    color: white;
+}
+
+/* Navigation */
+nav {
+    background: #111;
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    background: #ff9800;
+    border-radius: 5px;
+}
+header {
+    background: #111; 
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); 
+}
+/* Home Page */
+.home-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-container img {
+    width: 350px;
+    margin: 15px 0;
+    border-radius: 10px;
+}
+/* Style for the Shop Now button */
+.btn {
+    background-color: #FF5722;  
+    color: white;
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    text-align: center;
+    display: inline-block;
+}
+
+/* Hover effect for the button */
+.btn:hover {
+    background-color: #E64A19;  
+    transform: scale(1.05);  
+}
+
+/* Focus effect for the button */
+.btn:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(255, 87, 34, 0.6);
+}
+
+
+/* Products Page */
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+    gap: 25px;
+    padding: 30px;
+    text-align: center;
+}
+
+.product {
+    background: #222; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.product:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 15px rgba(255, 152, 0, 0.5); 
+}
+
+.product img {
+    width: 100%;       
+    max-width: 250px; 
+    height: auto; 
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out, opacity 0.3s;
+}
+
+
+.product img:hover {
+    transform: scale(1.05); 
+    opacity: 0.9;
+}
+
+
+/* Contact Form */
+.contact-form {
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+/* Footer */
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    background: #111;
+    text-align: center;
+    padding: 15px;
+    margin-top: auto;
+}
+/* Buy Now Button */
+.buy-btn {
+    background: #ff9800;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.buy-btn:hover {
+    background: #e68900;
+    transform: scale(1.05);
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('images/setup3.webp'); 
+    background-size: cover;
+    background-position: center center; 
+    background-attachment: fixed; 
+    color: white; 
+}
+
+
+.home-content {
+    position: relative;
+    padding: 50px;
+    text-align: center;
+}
+
+.home-content .intro {
+    background: rgba(0, 0, 0, 0.5); 
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.btn {
+    background-color: #f04e23; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(208, 67, 30);
+}
+button[type="submit"] {
+    background-color: #f04e23;
+    color: white;
+    padding: 15px 32px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 16px; 
+    transition: background-color 0.3s ease; 
+}
+
+button[type="submit"]:hover {
+    background-color: #f04e23; 
+}
+
+button[type="submit"]:active {
+    background-color: #f04e23; 
+}
+
+
+button[type="submit"] {
+    margin-top: 20px; 
+}
